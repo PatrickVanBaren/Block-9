@@ -22,16 +22,16 @@ public class ExampleUnitTest {
 
     @Test
     public void diffTest() {
-        Assert.assertEquals("Failed", 0, simpleCalculator.sum(5, 5));
+        Assert.assertEquals("Failed", 0, simpleCalculator.diff(5, 5));
     }
 
     @Test
     public void multiplyText() {
-        Assert.assertEquals("Failed", 25, simpleCalculator.sum(5, 5));
+        Assert.assertEquals("Failed", 25, simpleCalculator.multiply(5, 5));
     }
 
     @Test
     public void divText() {
-        Assert.assertEquals("Failed", 1, simpleCalculator.sum(5, 5));
+        Assert.assertEquals("Failed", 1, simpleCalculator.div(5, 5));
     }
 }
